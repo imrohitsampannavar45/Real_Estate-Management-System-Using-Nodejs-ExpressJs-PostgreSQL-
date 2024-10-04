@@ -10,13 +10,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Replace these values with your actual PostgreSQL database credentials
-const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'data1',
-  password: 'sohan@1237',
-  port: 5432,
-});
+// const pool = new Pool({
+//   user: 'postgres',
+//   host: 'localhost',
+//   database: 'data1',
+//   password: 'sohan@1237',
+//   port: 5432,
+// });
 
 retrieveData();
 
